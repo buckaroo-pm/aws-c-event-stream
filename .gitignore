@@ -1,2 +1,9 @@
 build
 tags
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+BUCKAROO_DEPS
+buckaroo_macros.bzl

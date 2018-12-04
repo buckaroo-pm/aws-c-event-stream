@@ -1,0 +1,9 @@
+targets = [ "//:aws-c-event-stream" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/awslabs-aws-c-common"
+version = "*"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/awslabs-aws-checksums"
+version = "*"

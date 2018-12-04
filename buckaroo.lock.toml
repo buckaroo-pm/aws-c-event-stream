@@ -1,0 +1,19 @@
+manifest = "7fcc5e50d3a34f8b702c53c7037d72cd1678cfcfd946e6285205cce87bf1a1d7"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/awslabs-aws-c-common"
+target = "//:aws-c-common"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/awslabs-aws-checksums"
+target = "//:aws-checksums"
+
+[[lock]]
+name = "github.com/buckaroo-pm/awslabs-aws-c-common"
+version = "branch=master"
+revision = "1d755e3287db2a89d6c7ac52f4b818e5205b3026"
+
+[[lock]]
+name = "github.com/buckaroo-pm/awslabs-aws-checksums"
+version = "branch=master"
+revision = "7598679075b147468fd83e95d34fddcd541b1efc"
