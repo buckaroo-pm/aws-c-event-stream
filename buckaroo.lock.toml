@@ -8,12 +8,10 @@ target = "//:aws-c-common"
 package = "github.com/buckaroo-pm/awslabs-aws-checksums"
 target = "//:aws-checksums"
 
-[[lock]]
-name = "github.com/buckaroo-pm/awslabs-aws-c-common"
-version = "branch=master"
+[lock."github.com/buckaroo-pm/awslabs-aws-c-common"]
+versions = [ "branch=master" ]
 revision = "1d755e3287db2a89d6c7ac52f4b818e5205b3026"
 
-[[lock]]
-name = "github.com/buckaroo-pm/awslabs-aws-checksums"
-version = "branch=master"
+[lock."github.com/buckaroo-pm/awslabs-aws-checksums"]
+versions = [ "branch=master" ]
 revision = "7598679075b147468fd83e95d34fddcd541b1efc"
